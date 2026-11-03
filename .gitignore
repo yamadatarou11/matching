@@ -1,0 +1,17 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies and generated builds
+**/node_modules/
+app/.expo/
+app/dist/
+app/web-build/
+
+# OS files
+.DS_Store
+Thumbs.db
